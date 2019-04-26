@@ -1,5 +1,5 @@
 /* importing dynamodb from config */
-import { dynamodb } from './config/dynamoConfig'
+var dynamodb = require('./config/dynamoConfig')
 
 var params = {
     TableName : "Movies",
